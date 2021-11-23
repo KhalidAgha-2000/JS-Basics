@@ -2,7 +2,8 @@
 
 - Each step has a prepared html file to work with, use it
 - You should create a javascript file for each step with the name of the step.
-> e.g : Step_1.html + Step_1.js
+> e.g : Step_1.html + Step_1.js 
+DONE
 - COMMIT AFTER EACH STEP, call each commit by the name of the step
 
 ## References
