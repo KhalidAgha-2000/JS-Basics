@@ -5,4 +5,4 @@ if (student == null || student == "") {
 } else {
     text = "Hello " + student;
 }
-document.getElementById("demo").innerHTML = text;
+alert(text)
