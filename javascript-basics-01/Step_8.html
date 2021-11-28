@@ -1,13 +1,43 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Step 8</title>
-        <meta charset="UTF-8">
-    </head>
-    <body>
-        <form>
-            <label for="age">your age : </label><input type="text" id="age" name="age"/><br/>
-            <button id="validate" name="validate">validate</button>
-        </form>
-    </body>
+  <head>
+    <title>Step 8</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <form name="jsForm" onsubmit="return validateForm()">
+      <label for="age">your age : </label
+      ><input type="text" id="age" name="age" /><br />
+      <button id="validate" name="validate">Check</button>
+    </form>
+  </body>
 </html>
+<script src="Step_8.js"></script>
+<style>
+     body {
+    background-color: grey;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    padding: 50px;
+  }
+  input {
+    width: 40%;
+    height: 45px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+  }
+  label {
+    font-size: 30px;
+  }
+  button {
+    width: 20%;
+    height: 40px;
+    font-size: 23px;
+    background-color: darkgray;
+    border-radius: 20px;
+    margin: 10px;
+  }
+</style>
