@@ -1,14 +1,45 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Step 4</title>
-</head>
-<body>
-  <form>
-    <label for="password">password : </label><input type="text" name="password" value="" id="password" />
-    <label for="confirmation">Confirm : </label><input type="text" name="confirmation" value="" id="confirmation" />
-    <button type="button" name="button" >Test</button>
-  </form>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Step 4</title>
+  </head>
+  <body>
+    <form>
+      <label for="password">password : </label
+      ><input type="text" name="password" value="" id="password" />
+      <label for="confirmation">Confirm : </label
+      ><input type="text" name="confirmation" value="" id="confirmation"  />
+      <button onclick="testPass();" type="button" name="button">Test</button>
+    </form>
+  </body>
 </html>
+<script src="index.js"></script>
+<style>
+    body {
+    background-color: grey;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    padding: 50px;
+  }
+  input {
+    width: 20%;
+    height: 45px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+  }
+  label {
+    font-size: 30px;
+  }
+  button {
+    width: 20%;
+    height: 40px;
+    font-size: 23px;
+    background-color: darkgray;
+    border-radius: 20px;
+    margin: 10px;
+  }
+</style>
