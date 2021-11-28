@@ -1,2 +1,2 @@
 var name ="Khalid";
-window.alert(name)
+alert(name)
